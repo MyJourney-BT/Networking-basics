@@ -5,11 +5,11 @@ Topics I am learning for Blue Team / SOC:
 
 - OSI Model
 - TCP/IP
-- IP Addressing
-- Subnetting
-- MAC Address
+- IP Addressing - done
+- Subnetting - done
+- MAC Address - done
 - ARP
-- LAN / WAN
+- LAN / WAN 
 - NAT
 - DNS
 - DHCP
@@ -19,8 +19,8 @@ Topics I am learning for Blue Team / SOC:
 - Ports
 - HTTP / HTTPS
 - TLS / SSL
-- Routing
-- Switching
+- Routing - done
+- Switching - done
 - VLAN
 - Firewalls
 - VPN
@@ -33,4 +33,4 @@ They communicate through a switch.
 Routers are used to connect different networks together.
 
 I learned that switches can use flooding when they do not know where the destination device is located in the LAN.
-Once the switch knows the MAC destination , it can send frames directly to the correct device.
+Once the switch knows the destination MAC address , it can forward frames directly to the correct device.
