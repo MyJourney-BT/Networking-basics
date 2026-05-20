@@ -1,4 +1,4 @@
-start : 20/5/2026 (dd/mm/yyyy)
+start : 20/05/2026 (dd/mm/yyyy)
 # Networking Basics
 
 Topics I am learning for Blue Team / SOC:
