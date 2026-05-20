@@ -1,4 +1,4 @@
-20/5/2026
+start : 20/5/2026
 # Networking Basics
 
 Topics I am learning for Blue Team / SOC:
