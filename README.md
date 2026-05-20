@@ -31,3 +31,6 @@ Topics I am learning for Blue Team / SOC:
 I learned that devices in the same LAN do not need a router to communicate with each other.  
 They communicate through a switch.  
 Routers are used to connect different networks together.
+
+I learned that switches can use flooding when they do not know where the destination device is located in the LAN.
+Once the switch knows the MAC destination , it can send frames directly to the correct device.
