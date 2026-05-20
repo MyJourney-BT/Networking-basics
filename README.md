@@ -27,3 +27,7 @@ Topics I am learning for Blue Team / SOC:
 - Packet Analysis
 - Wireshark
 - Network Logs
+------------------------------------------------------------------------------------
+I learned that devices in the same LAN do not need a router to communicate with each other.  
+They communicate through a switch.  
+Routers are used to connect different networks together.
