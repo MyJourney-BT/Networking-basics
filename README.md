@@ -8,7 +8,7 @@ Topics I am learning for Blue Team / SOC:
 - IP Addressing - done
 - Subnetting - done
 - MAC Address - done
-- ARP
+- ARP - done, The protocol used to discover the MAC address of a device when only its IP address is known.
 - LAN / WAN 
 - NAT
 - DNS
