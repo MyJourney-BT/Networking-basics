@@ -37,3 +37,11 @@ Once the switch knows the destination MAC address , it can forward frames direct
 
 I learned that if Device A wants to send data to Device B but only knows Device B’s IP address, it must use the ARP protocol (by sending a broadcast) to find Device B’s MAC address. 
 Only then can it encapsulate the destination MAC address (Device B's MAC) along with the source MAC address and the packet into a single frame to send to the switch, which then continues the forwarding process.
+
+1. The Vulnerability: MAC Flooding Attack
+* **Mechanism:** Attackers exploit the fact that a switch's **MAC Address Table (CAM Table)** is shared and has a limited storage capacity.
+* **How it works:** The attacker uses automated tools to flood a single switch port with millions of fake MAC addresses until the CAM table is completely full.
+* **The Consequence:** Once the CAM table overflows, the switch fails to learn new addresses and degrades into a **Hub**. It is forced to `flood` all subsequent incoming traffic out of all ports. The attacker can then use a packet sniffer (like Wireshark) to capture sensitive data from any device in the LAN.
+2. The Defense: Port Security
+* **Definition:** A Layer 2 security feature on switches that restricts the number of valid MAC addresses allowed to connect to a specific port.
+* **How it protects:** By setting a maximum limit (e.g., maximum 1 MAC address per port), if an attacker tries to flood the port with multiple MACs, the switch detects a violation and triggers a security action (typically **Shutdown**, which disables the port immediately). This completely neutralizes the MAC Flooding attempt.
