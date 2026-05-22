@@ -3,7 +3,7 @@ start : 20/05/2026 (dd/mm/yyyy)
 
 Topics I am learning for Blue Team / SOC:
 
-**Phase 1 — Fundamentals**
+**Phase 1 — Fundamentals**:
 OSI
 TCP/IP
 IP - done
@@ -14,7 +14,7 @@ DNS - Domain name system - done
 DHCP
 ICMP
 
-**Phase 2 — Traffic**
+**Phase 2 — Traffic**:
 TCP/UDP
 Ports
 HTTP/HTTPS
@@ -22,7 +22,7 @@ TLS
 Packet flow
 Wireshark
 
-**Phase 3 — Infrastructure**
+**Phase 3 — Infrastructure**:
 Routing - done
 Switching - done
 VLAN
@@ -30,7 +30,7 @@ NAT
 Firewalls
 VPN
 
-**Phase 4 — Security View**
+**Phase 4 — Security View**:
 packet analysis
 network logs
 malicious traffic
