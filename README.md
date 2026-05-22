@@ -3,41 +3,40 @@ start : 20/05/2026 (dd/mm/yyyy)
 
 Topics I am learning for Blue Team / SOC:
 
-**Phase 1 — Fundamentals**:
-OSI
-TCP/IP
-IP - done
-subnet
-MAC
-ARP - done
-DNS - Domain name system - done
-DHCP
-ICMP
+###  Phase 1: Networking Fundamentals (The Core)
 
-**Phase 2 — Traffic**:
-TCP/UDP
-Ports
-HTTP/HTTPS
-TLS
-Packet flow
-Wireshark
+- [ ] **OSI Model & TCP/IP Stack** (Understanding how data travels)
+- [ ] **IP Addressing & Subnetting** (Mastering IPv4, CIDR, and local networks)
+- [x] **MAC Address & ARP** (Layer 2 communication and its vulnerabilities)
+- [ ] **DNS (Domain Name System)** (The phonebook of the internet)
+- [ ] **DHCP** (How devices get IPs automatically)
+- [ ] **ICMP** (Ping, Traceroute, and network diagnostics)
+- [ ] **LAN / WAN Concepts**
 
-**Phase 3 — Infrastructure**:
-Routing - done
-Switching - done
-VLAN
-NAT
-Firewalls
-VPN
+###  Phase 2: Traffic & Packet Analysis
 
-**Phase 4 — Security View**:
-packet analysis
-network logs
-malicious traffic
-scans
-brute force
-C2 patterns
-IDS/IPS basics
+- [ ] **Switching & Hubs** (Flooding, CAM Tables, and Broadcast domains)
+- [ ] **TCP vs UDP** (Connection-oriented vs Connectionless)
+- [ ] **Common Ports** (SSH, HTTP, HTTPS, FTP, etc.)
+- [ ] **HTTP / HTTPS & TLS/SSL** (Web security and encryption)
+- [ ] **Wireshark Basics** (Capturing and filtering real-time traffic)
+- [ ] **Packet Flow Analysis** (Tracing a packet from source to destination)
+
+###  Phase 3: Infrastructure & Defense
+
+- [ ] **Routing Concepts** (Static vs Dynamic routing)
+- [ ] **VLANs (Virtual LANs)** (Segmenting networks for security)
+- [ ] **NAT (Network Address Translation)** (Private vs Public IPs)
+- [ ] **Firewalls** (Stateful vs Stateless inspection)
+- [ ] **VPN (Virtual Private Network)** (Secure tunnels over the internet)
+
+###  Phase 4: Security Operations (The Expert View)
+
+- [ ] **MAC Flooding & Port Security** (Defending Layer 2 - *In depth*)
+- [ ] **Malicious Traffic Detection** (Spotting C2 patterns and malware beacons)
+- [ ] **Brute Force & Scan Analysis** (Identifying attacker recon activities)
+- [ ] **IDS/IPS Basics** (Intrusion Detection/Prevention Systems)
+- [ ] **Network Logs Analysis** (Reading the "footprints" of an attacker)
 
 ------------------------------------------------------------------------------------
 I learned that devices in the same LAN do not need a router to communicate with each other.  
