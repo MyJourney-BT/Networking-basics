@@ -3,30 +3,39 @@ start : 20/05/2026 (dd/mm/yyyy)
 
 Topics I am learning for Blue Team / SOC:
 
-- OSI Model
-- TCP/IP
-- IP Addressing - done
-- Subnetting - done
-- MAC Address - done
-- ARP - done, The protocol used to discover the MAC address of a device when only its IP address is known.
-- LAN / WAN 
-- NAT
-- DNS
-- DHCP
-- ICMP
-- TCP
-- UDP
-- Ports
-- HTTP / HTTPS
-- TLS / SSL
-- Routing - done
-- Switching - done
-- VLAN
-- Firewalls
-- VPN
-- Packet Analysis
-- Wireshark
-- Network Logs
+**Phase 1 — Fundamentals**
+OSI
+TCP/IP
+IP - done
+subnet
+MAC
+ARP - done
+DNS - Domain name system - done
+DHCP
+ICMP
+**Phase 2 — Traffic**
+TCP/UDP
+Ports
+HTTP/HTTPS
+TLS
+Packet flow
+Wireshark
+**Phase 3 — Infrastructure**
+Routing - done
+Switching - done
+VLAN
+NAT
+Firewalls
+VPN
+**Phase 4 — Security View**
+packet analysis
+network logs
+malicious traffic
+scans
+brute force
+C2 patterns
+IDS/IPS basics
+
 ------------------------------------------------------------------------------------
 I learned that devices in the same LAN do not need a router to communicate with each other.  
 They communicate through a switch.  
