@@ -13,6 +13,7 @@ ARP - done
 DNS - Domain name system - done
 DHCP
 ICMP
+
 **Phase 2 — Traffic**
 TCP/UDP
 Ports
@@ -20,6 +21,7 @@ HTTP/HTTPS
 TLS
 Packet flow
 Wireshark
+
 **Phase 3 — Infrastructure**
 Routing - done
 Switching - done
@@ -27,6 +29,7 @@ VLAN
 NAT
 Firewalls
 VPN
+
 **Phase 4 — Security View**
 packet analysis
 network logs
