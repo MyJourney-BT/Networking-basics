@@ -8,8 +8,8 @@ Topics I am learning for Blue Team / SOC:
 - [ ] **OSI Model & TCP/IP Stack** (Understanding how data travels)
 - [ ] **IP Addressing & Subnetting** (Mastering IPv4, CIDR, and local networks)
 - [x] **MAC Address & ARP** (Layer 2 communication and its vulnerabilities)
-- [ ] **DNS (Domain Name System)** (The phonebook of the internet)
-- [ ] **DHCP** (How devices get IPs automatically)
+- [x] **DNS (Domain Name System)** (The phonebook of the internet)
+- [x] **DHCP** (How devices get IPs automatically)
 - [ ] **ICMP** (Ping, Traceroute, and network diagnostics)
 - [ ] **LAN / WAN Concepts**
 
